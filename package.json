@@ -1,0 +1,46 @@
+{
+  "name": "wrappid-app",
+  "version": "0.0.1",
+  "description": "This is a boilerplate application using wrappid for both web and mobile application.",
+  "scripts": {
+    "code:lint": "eslint --ignore-path .gitignore .",
+    "code:format": "npm run code:lint -- --fix .",
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrappid/wrappid-app.git"
+  },
+  "keywords": [
+    "wrappid",
+    "react",
+    "react-native",
+    "hybrid",
+    "javascript"
+  ],
+  "author": "wrappid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrappid/wrappid-app/issues"
+  },
+  "homepage": "https://github.com/wrappid/wrappid-app#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.0",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/prompt-cli": "^17.5.0",
+    "@wrappid/core": "latest",
+    "@wrappid/styles": "latest",
+    "eslint": "^8.37.0",
+    "eslint-plugin-etc": "^2.0.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.0",
+    "standard-version": "^9.5.0"
+  }
+}
