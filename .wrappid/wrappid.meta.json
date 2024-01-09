@@ -1,11 +1,11 @@
 {
   "projectType": "app",
-  "projectID": "",
-  "projectName": "wrappid",
+  "projectID": "wrappid-aitijhyasarkar-github.com-65119264-f3c2-41a4-8e0e-51625b5dabb9",
+  "projectName": "Demo2-app",
   "remote": true,
   "repoProvider": "github.com",
-  "repoOwner": "wrappid",
-  "repoURL": "https://github.com/wrappid/wrappid-app.git",
+  "repoOwner": "aitijhyasarkar",
+  "repoURL": "https://github.com/aitijhyasarkar/Demo2-app.git",
   "modules": {
     "guide": {
       "projectID": "",

@@ -1,8 +1,14 @@
 import modulesRoutesRegistry from "../modules/modules.routes.registry";
 
 export const RoutesRegistry = {
-  defaultAppRoute: {
+  SamplePage: {
     Page        : { appComponent: "AppComponent", layout: "WrappidAppLayout" },
+    authRequired: false,
+    entityRef   : "defaultAppRoute",
+    url         : "SamplePage"
+  },
+  defaultAppRoute: {
+    Page        : { appComponent: "SamplePage" },
     authRequired: false,
     entityRef   : "defaultAppRoute",
     url         : "defaultAppRoute"

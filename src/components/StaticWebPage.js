@@ -1,5 +1,5 @@
 import {
-  CoreClasses, CoreContainedButton, CoreH3, CoreH5, CoreImage, CoreStack 
+  CoreClasses, CoreContainedButton, CoreH3, CoreH5, CoreImage, CoreStack
 } from "@wrappid/core";
 
 function StaticWebPage() {
@@ -24,7 +24,7 @@ function StaticWebPage() {
 
       <CoreH5>Wrapper Framework Built to Enable Rapid Development of Applications</CoreH5>
 
-      <CoreContainedButton styleClasses={[CoreClasses.PADDING.PX4, CoreClasses.PADDING.PY2, CoreClasses.BG.BG_WARNING_LIGHT]} size="large" >Get started with Wrappid</CoreContainedButton>
+      <CoreContainedButton styleClasses={[CoreClasses.PADDING.PX4, CoreClasses.PADDING.PY2, CoreClasses.BG.BG_WARNING_LIGHT]} size="large" href="/">Get started with Wrappid</CoreContainedButton>
     </CoreStack>
   );
 }
